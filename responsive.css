@@ -1,0 +1,346 @@
+nav .fa-solid{
+  display: none;  
+}
+@media only screen and (max-width:700px){
+    nav .fa-solid{
+        display: block;  
+      }
+    .Navitems{
+        background-color:rgb(181, 38, 38);
+        display: block;
+        position: absolute;
+        width: 150px;
+        top:0px;
+        
+        padding-top: 20px;
+        height: 100vh;
+        
+        transition: right 0.5s;
+        z-index: 1000;
+        position: fixed;
+        right:-150px;
+    }
+    nav ul li{
+        padding-left: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    nav ul li:hover{
+        background: rgba(255, 255, 255, 0.1);
+    }
+    #home{
+        display: block;
+    }
+    .image31{
+        width: 250px;
+        border-radius:50%;
+        
+    }
+    .photo{
+        
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+    .intro-1,.intro-2{
+        font-size:30px;
+        padding-left: 10px;
+        
+    }
+    .intro-1{
+        margin-top: -125px;
+    }
+    
+    #cross{
+        font-size: 30px;
+        padding-left: 25px;
+        padding-bottom: 10px;
+    }
+    #cross,#menu-icon:hover{
+        cursor: pointer;
+    }
+    #menu-icon{
+        margin-right: 10px;
+        font-size: 30px;
+    } 
+    .navbar h1{
+        font-size:25px;
+    }
+    #me{
+        margin-top: -5px;
+        font-size: 50px;
+        margin-left:5%;
+        font-weight: 500;
+    }
+    .row{
+        display:block;
+        
+    }
+    .row-1{
+        padding-left:5%;
+        
+    }
+    .row-2{
+        padding-left:5%;
+        font-size: 12px;
+        padding-top: 40px;
+    }
+    .container-2{
+        display: block;
+        margin-right: 80px;;
+        
+    }
+    #my{
+        padding-top: 80px;
+        font-size: 50px;
+        font-weight: 500;
+        /* padding-left: 70%; */
+        padding-bottom: 20px;
+       
+        margin-left: 20px;
+        width: 350px;
+        padding-left: 40px;
+    }  
+    
+    
+    .col{
+        width:300px;
+        font-size: 15px;
+        height: 300px;
+        margin-right: 0%;
+        margin-bottom: 40px;
+    }
+    #wd{
+        font-size: 20px;
+    }
+    
+#my1{
+    
+    padding-top: 80px;
+    font-size: 50px;
+    font-weight: 500;
+    margin-left: 40%;
+    padding-bottom: 5px;
+}
+.images,
+.image-1,
+.popup{
+    width:275px;
+    height: auto;
+}
+.popup{
+    bottom:-180px;
+}
+
+#contact{
+    display: block;
+    
+}
+.contact-me{
+    font-size: 40px;
+    margin-top: -80px;
+}
+.phone,.gmail{
+    font-size: 14px;
+    
+}   
+    
+#phone{
+    font-size:15px;
+    
+}
+
+.contact-right{
+    padding-left: 25px;
+}
+.email,.name,.message{
+    width:350px;
+}
+.download{
+    width: 120px;
+    font-size: 15px;
+    padding-right: 10px;
+    
+}
+.name{
+    margin-top: 30px;
+}
+.btn-1{
+    width: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.copyright{
+    font-size: 11px;
+    width: 100%;
+    margin-top: 20px;
+}
+.container{
+    display: block;
+    
+    width: 100%;
+}
+.images{
+    margin-bottom: 30px;
+    margin-left:15%;
+    
+}
+}
+
+@media only screen and (min-width:700px) and (max-width:800px){
+    #home{
+        gap:0px;
+        
+    }
+    .intro-1,.intro-2{
+        font-size: 20px;
+    }
+    .container-2{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left:20%;
+    }
+    #contact{
+        gap:50px;
+    }
+    .gmail{
+        font-size: 12px;
+    }
+    .email,.name,.message{
+        width:400px
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:900px) {
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }
+    .container-2{
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    #home{
+        gap:0px;
+    }
+    .intro-1,.intro-2{
+        font-size: 28px;
+    }
+    #contact{
+        gap:80px;
+    }
+    .email,.name,.message{
+        width:400px
+    }
+}
+
+@media only screen and (min-width:900px) and (max-width:1000px) {
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }
+    .container-2{
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    #home{
+        gap:10px;
+    }
+    .intro-1,.intro-2{
+        font-size: 28px;
+    }
+    #contact{
+        gap:120px;
+    }
+    .email,.name,.message{
+        width:400px
+    }
+
+}
+
+@media only screen and (min-width:1000px) and (max-width:1100px) {
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }
+    .container-2{
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    #home{
+        gap:30px;
+    }
+    .intro-1,.intro-2{
+        font-size: 30px;
+    }
+    #contact{
+        gap:120px;
+    }
+    .email,.name,.message{
+        width:400px
+    }
+
+}
+
+@media only screen and (min-width:1100px) and (max-width:1200px) {
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }
+    .container-2{
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    #home{
+        gap:30px;
+    }
+    .intro-1,.intro-2{
+        font-size: 35px;
+    }
+    #contact{
+        gap:120px;
+    }
+    .email,.name,.message{
+        width:400px
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1300px){
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 20%;
+    }
+    .container-2{
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+    }
+    #home{
+        gap:30px;
+    }
+    .intro-1,.intro-2{
+        font-size: 40px;
+    }
+    #contact{
+        gap:120px;
+    }
+    .email,.name,.message{
+        width:400px
+    }
+}
+
+
+
+
