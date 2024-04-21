@@ -3,7 +3,7 @@
 }
 @media only screen and (max-width:500px){
     #menu-icon,#cross{
-        display: visible;  
+        display: block;  
       }
     .Navitems{
         background-color:rgb(181, 38, 38);
